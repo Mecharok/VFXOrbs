@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Shader Graphs_LaserTrailsV2
+  m_Shader: {fileID: -6465566751694194690, guid: ef8c943d162e37f49a41d58a95b05f43, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - MainText:
+        m_Texture: {fileID: 2800000, guid: 3da58a08081f6af4db8ae10d874bd1a5, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - DissolveScale: 14.8
+    m_Colors:
+    - Color01: {r: 2.2538774, g: 1.6262811, b: 0.9887291, a: 0}
+    - Color02: {r: 222.86098, g: 0, b: 0, a: 1}
+    - DissolveSpeed: {r: -1.04, g: 0, b: 0, a: 0}
+    - MainTextSpeed: {r: -2, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
